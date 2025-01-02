@@ -16,6 +16,9 @@ export default function RTE({defaultValue="",name,label,control}) {
             initialValue:{defaultValue},
             height: 500,
           menubar: false,
+          plugins: [
+            'anchor', 'autolink', 'charmap', 'codesample', 'emoticons', 'image', 'link', 'lists', 'media', 'searchreplace', 'table', 'visualblocks', 'wordcount',
+            ],
           // plugins: [
           //   // Core editing features
           //   'anchor', 'autolink', 'charmap', 'codesample', 'emoticons', 'image', 'link', 'lists', 'media', 'searchreplace', 'table', 'visualblocks', 'wordcount',
