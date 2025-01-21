@@ -51,6 +51,11 @@ function Login() {
                         Sign Up
                     </Link>
                 </p>
+                <div className="p-2 w-full">
+                            <p>Credentials</p>
+                            <p>email : test@test.com</p>
+                            <p>password : test1234 </p>
+                        </div>
                 {error && <p className="text-red-600 mt-8 text-center">{error}</p>}
                 <form onSubmit={handleSubmit(login)} className='mt-8'>
                     <div className='space-y-5'>
