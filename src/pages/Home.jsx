@@ -63,6 +63,11 @@ function Home() {
                         <h1 className="text-2xl font-bold hover:text-gray-500">
                             Login to read posts
                         </h1>
+                        <div className="p-2 w-full">
+                            <p>Credentials</p>
+                            <p>email : test@test.com</p>
+                            <p>password : test1234 </p>
+                        </div>
                     </div>
                 </div>
             </Container>
